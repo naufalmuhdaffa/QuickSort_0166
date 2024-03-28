@@ -104,6 +104,6 @@ int main()
     char ch;
 
     do {
-
+        input();
     } while (true);
 }

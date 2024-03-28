@@ -109,5 +109,11 @@ int main()
         display();
         cout << "\n\nDo you want to continue? (y/n): ";
         cin >> ch;
+        if (ch == 'n' || ch == 'N')
+            break;
+
+        system("pause");
+        system("cls");
+
     } while (true);
 }
